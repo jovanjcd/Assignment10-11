@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Assignment 10/11 Contd.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please choose the desired path.</h1>
+      <br>
+      <form action="" method="post">
+        <input type="submit" name="static_feed" value="Static Feed">
+        <input type="submit" name="live_feed" value="Live Feed">
+        </form>
+      <form action="" method="post">
+        <input type="button" value="Go back!" onclick="history.back()">
+        </form>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  </body>
+</html>
