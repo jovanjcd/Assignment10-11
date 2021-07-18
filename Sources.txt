@@ -1,0 +1,24 @@
+The code present within this project belogns to various online sources in regards to certain
+classes, methods, and most the html formatting in combination with various modifcations 
+meant to make the project adhere to the requirements of the assignment.
+
+1. Real Python's article "Discover Flask, Part 2 – Creating a Login Page"
+(https://realpython.com/introduction-to-flask-part-2-creating-a-login-page/)
+The log_in method was created by Real Python, and was modifed slightly for the inclusion of the url 
+redircet towards the gate_way webpage I included as a way for users to pick which feed they wanted to see.
+Everything outside of that line was a product of their work.
+
+2. Miguel Grinberg's article" Video Streaming with Flask"
+(https://blog.miguelgrinberg.com/post/video-streaming-with-flask) &
+log0's blog post "Python Live Video Streaming Example"
+(http://www.chioka.in/python-live-video-streaming-example/)
+Miguel Grinberg created the example code which includes the gen and video_feed methods. The later
+I utilized and changed into the static_feed and live_feed methods. For the gen method I 
+utilized log0's modifed version of it as opposed to the original. The Video Camera class and all of 
+its methods were the product of log0's work. The only change I made regarding this section of code was 
+the removal of the Video Capture method call that would acess my system's camera, and the creation of 
+a VideoCmaera2 child class that was dedicated to the camrea feed.
+
+3.
+
+
