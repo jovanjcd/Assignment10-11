@@ -6,7 +6,10 @@ meant to make the project adhere to the requirements of the assignment.
 (https://realpython.com/introduction-to-flask-part-2-creating-a-login-page/)
 The log_in method was created by Real Python, and was modifed slightly for the inclusion of the url 
 redircet towards the gate_way webpage I included as a way for users to pick which feed they wanted to see.
-Everything outside of that line was a product of their work.
+Everything outside of that line was a product of their work. The code from the login page also belogns to 
+Real Python  with the only changes on my end being the text that is at the top of the page and the etx on 
+the button. The gateway page is a modifed version of Real Python's login page that has two simplifed buttons
+in the palce of a password box with a request form.
 
 2. Miguel Grinberg's article" Video Streaming with Flask"
 (https://blog.miguelgrinberg.com/post/video-streaming-with-flask) &
@@ -19,6 +22,10 @@ its methods were the product of log0's work. The only change I made regarding th
 the removal of the Video Capture method call that would acess my system's camera, and the creation of 
 a VideoCmaera2 child class that was dedicated to the camrea feed.
 
-3.
+3.Pyshine's article "How to deploy Python video processing application on the server"
+The static_feed and live_feed files in th eproject are simply renamed versions of the 
+results.html file that can be found in this article. The code within those files are the 
+product of the work found within the article.
+
 
 
